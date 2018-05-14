@@ -1,0 +1,10 @@
+<div class="row">
+    <h6 class="col burger-name">{{burger_name}}</h6>
+    {{#unless devoured}}
+    <div class="col p-0">
+        <button class="devour-me btn btn-outline-dark" data-devoured="{{devoured}}" data-id="{{id}}">
+            <img class="button-burger" src="/assets/img/button-burger.png" alt="yum" />Devour</button>
+    </div>
+    <br> {{/unless}}
+    <br>
+</div>
